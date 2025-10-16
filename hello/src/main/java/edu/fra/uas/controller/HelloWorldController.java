@@ -14,7 +14,7 @@ public class HelloWorldController {
     @RequestMapping(value="hello", method=RequestMethod.GET)
     @ResponseBody
     public String getHelloWold() {
-        return "<h1>Hello World Spring Boot! Yay!<h1>";
+        return "<h1>Hello World Spring Boot! Yay! Yay!<h1>";
     }
     
 
